@@ -1,0 +1,319 @@
+<!-- 
+    Muhammad Aqila Karindra Daffa
+    A19EC3010
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio_MuhammadAqilaKarindraDaffa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        background-color: rgb(9, 6, 15);
+      }
+
+      .background {
+        background-image: url("https://cdn.pixabay.com/photo/2017/11/22/22/52/milky-way-2971669__340.jpg");
+        background-color: rgb(211, 96, 75);
+        height: 1500px;
+        width: 100%;
+        position: relative;
+      }
+
+      .border {
+        width: 90%;
+        height: 1360px;
+        border: 2px solid;
+        border-color: rgb(47, 108, 177);
+        background-color: rgb(111, 160, 223);
+        position: absolute;
+        left: 65px;
+        top: 70px;
+      }
+
+      .bag {
+        background-color: rgb(44, 248, 231);
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        animation: moving 3s infinite;
+      }
+
+      @keyframes moving {
+        from {
+          background-color: rgb(94, 255, 129);
+        }
+        to {
+          background-color: rgb(44, 190, 248);
+        }
+      }
+
+      li.bags {
+        float: center;
+      }
+
+      a.lit {
+        display: block;
+        color: rgb(22, 15, 15);
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+      }
+
+      li.bags:hover {
+        background-color: #285fc5;
+      }
+
+      .bag li {
+        display: inline-block;
+        font-size: 20px;
+        background-color: rgb(172, 161, 61);
+        border: 2px solid #4bf58c;
+        padding: 15px;
+      }
+
+      h1 {
+        text-align: center;
+        border: 2px solid;
+        background-color: rgb(252, 174, 31);
+        font-family: Times, "Times New Roman";
+        font: size 25px;
+        color: rgb(59, 15, 15);
+        animation: mymove 3s infinite;
+      }
+
+      h4 {
+        background-color: rgb(0, 247, 255);
+        font-family: Georgia, serif;
+        font-size: 20px;
+      }
+
+      @keyframes mymove {
+        from {
+          background-color: rgb(252, 174, 31);
+        }
+        to {
+          background-color: rgb(114, 113, 187);
+        }
+      }
+
+      .column {
+        float: left;
+        padding: 10px;
+      }
+
+      .column.left {
+        width: 30%;
+      }
+
+      .column.right {
+        width: 65%;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .favlist {
+        display: inline-block;
+        margin: 20px 40px;
+      }
+
+      .hobbies {
+        margin: 0 0 40px;
+      }
+
+      a.favthgs:link {
+        color: #ffc400;
+        text-decoration: none;
+      }
+
+      a.favthgs:visited {
+        color: #ffcc00;
+        text-decoration: none;
+      }
+
+      a.favthgs:hover {
+        color: #eb5b5b;
+        text-decoration: underline;
+      }
+
+      a.hobs:link {
+        color: #ffc400;
+        text-decoration: none;
+      }
+
+      a.hobs:visited {
+        color: khaki;
+        text-decoration: none;
+      }
+
+      a.hobs:hover {
+        color: #f51a1a;
+        text-decoration: underline;
+      }
+
+      a.profiles:link {
+        color: #ffc400;
+        text-decoration: none;
+      }
+
+      a.profiles:visited {
+        color: #8ce6e9;
+        text-decoration: none;
+      }
+
+      a.profiles:hover {
+        color: #eb5b5b;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to Muhammad Aqila Karindra Daffa's Page</h1>
+    <div class="background">
+      <div class="border">
+        <ul class="bag">
+          <li class="bags"><a class="lit" href="#">HOME</a></li>
+          <li class="bags"><a class="lit" href="#abm">About Me</a></li>
+          <li class="bags"><a class="lit" href="#hbs">My Hobby</a></li>
+          <li class="bags"><a class="lit" href="#pln">My Plan</a></li>
+        </ul>
+
+        <div class="row">
+          <div class="column left">
+            <h4 id="abm">About Me</h4>
+            <img src="https://eportfolio.utm.my/thumb.php?type=profileiconbyid&id=964159&view=185127&maxwidth=80" align="left" style="margin: 0 10px" />
+            <p>
+              My name is Muhammad Aqila Karindra Daffa and some of people call me Aqila, I am from Indonesia and right now studying Software Engineering in School of Computing UTM Johor. I have several interest in my life, such as movies,
+              music, coding, and sports.
+            </p>
+            <ol>
+              <li>Full name: <br /><b>Muhammad Aqila Karindra Daffa</b></li>
+              <li>Student ID: <b>A19EC3010</b></li>
+              <li>Faculty: <b>Computer Science</b></li>
+              <li>LinkedIn: <a class="profiles" href="https://www.linkedin.com/in/muhammad-aqila-karindra-daffa-5495aa202/" target="_blank">Muhammad Aqila Karindra Daffa</a></li>
+              <li>Instagram: <a class="profiles" href="https://www.instagram.com/aqiladaffa9/" target="_blank">@aqiladaffa9</a></li>
+              <li>Email address: <a href="mailto:muhammad.karindra@graduate.utm.my" target="_blank">muhammad.karindra@graduate.utm.my</a></li>
+              <li>Country: <b>Indonesia</b></li>
+            </ol>
+
+            <h4 id="hbs">My Hobbies</h4>
+            <ol>
+              <li class="hobbies">
+                <a href="https://www.mychemicalromance.com/" target="_blank"
+                  ><img src="https://i.pinimg.com/originals/0f/8c/fa/0f8cfa90d72f5e39f25192794bdcd0c3.jpg" height="200px" width="150px" align="top" /><br /><a class="hobs" href="https://www.mychemicalromance.com/" target="_blank"
+                    >Music</a
+                  ></a
+                >
+              </li>
+              <li class="hobbies">
+                <a href="https://www.arsenal.com/" target="_blank"
+                  ><img src="https://image.winudf.com/v2/image1/Y29tLmZsYWcuZm9vdGJhbGwud2FsbHBhcGVycy5jbHViLnF1YWxpdHlfc2NyZWVuXzRfMTU0NzYyMzM2M18wOTk/screen-4.jpg?fakeurl=1&type=.jpg" height="250px" width="150px" align="top" /><br /><a
+                    class="hobs"
+                    href="https://www.arsenal.com/"
+                    target="_blank"
+                    >Sport</a
+                  ></a
+                >
+              </li>
+              <li class="hobbies">
+                <a href="https://myanimelist.net/anime/6702/Fairy_Tail" target="_blank"
+                  ><img src="https://cdn.wallpapersafari.com/13/91/akHuDQ.jpg" height="200px" width="150px" align="top" /><br /><a class="hobs" href="https://myanimelist.net/anime/6702/Fairy_Tail" target="_blank">Anime</a></a
+                >
+              </li>
+            </ol>
+          </div>
+          <div class="column right">
+            <h4>My Profile</h4>
+            <p>
+              I am one of a student at the University of Technology Malaysia since February 2020. The reasons why I take the software engineering course are because I love exploring something with my computer, and in the future, I want to
+              become a software Engineer or website developer. I am reallt glad that I can take my college study in UTM because in here I can make friends not only with Indonesian people but I can have many friends from many countries and I
+              am really grateful with that.
+            </p>
+
+            <h4 id="pln">My Plans</h4>
+            <p>
+              My plans for my future are some goals that I want to achieve in my life. I have so many goals especially before and after I graduated from UTM, such as I want to become one of the best student in UTM because I want to make my
+              parents proud of me and I also want to get a better future that's why my first target as a student is want to become one of teh best student. And after graduated from UTM, I want to become an employee in one of big companies
+              in this world, and there are still many more goals that I noted for my future but for now I want to focus on goals that I have to achieve during my college time, and I hope I can achieve all of those.
+            </p>
+
+            <h4>My Favorite Things</h4>
+            <ol type="I">
+              <li><b>Favorite Movies:</b></li>
+              <ol>
+                <li class="favlist">
+                  <a href="https://www.imdb.com/title/tt0268978/" target="_blank"
+                    ><img src="https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg" height="200px" width="150px" align="top" /><br /><a class="favthgs" href="https://www.imdb.com/title/tt0268978/" target="_blank"
+                      >A Beautiful Mind</a
+                    ></a
+                  >
+                </li>
+                <li class="favlist">
+                  <a href="https://www.imdb.com/title/tt3774114/" target="_blank"
+                    ><img src="https://i.pinimg.com/originals/29/50/19/295019796c3a51d336546a134dae0677.jpg" height="200px" width="150px" align="top" /><br /><a class="favthgs" href="https://www.imdb.com/title/tt3774114/" target="_blank"
+                      >Snowden</a
+                    ></a
+                  >
+                </li>
+              </ol>
+              <li><b>Favorite Songs:</b></li>
+              <ol>
+                <li class="favlist">
+                  <a href="https://www.youtube.com/watch?v=ZSg-eHng52E" target="_blank"
+                    ><img src="https://i.pinimg.com/originals/23/6a/fa/236afae3efbc4cba91d33500c5613a57.jpg" height="200px" width="200px" align="top" /><br /><a
+                      class="favthgs"
+                      href="https://www.youtube.com/watch?v=ZSg-eHng52E"
+                      target="_blank"
+                      >The Light Behind Your Eyes <br />by My Chemical Romance</a
+                    ></a
+                  >
+                </li>
+                <li class="favlist">
+                  <a href="https://www.youtube.com/watch?v=Y4nEEZwckuU" target="_blank"
+                    ><img
+                      src="https://1.bp.blogspot.com/-wX9WX7Il0VE/X01sMeNsy7I/AAAAAAAAfjk/-MpXCXuv6k8YFTxYuH-ZzRLJAYnaJjLAACLcBGAsYHQ/s1600/YOASOBI%2B-%2BGunjou%2BBiru%2BLaut%2BUltramarine%2BLirik%2BTerjemahan%2BLyrics%2BEnglish%2BTranslation.jpg"
+                      height="200px"
+                      width="200px"
+                      align="top"
+                    /><br /><a class="favthgs" href="https://www.youtube.com/watch?v=Y4nEEZwckuU" target="_blank">Gunjou <br />by Yoasobi </a></a
+                  >
+                </li>
+              </ol>
+              <li><b>Favorite Books:</b></li>
+              <ol>
+                <li class="favlist">
+                  <a href="https://en.wikipedia.org/wiki/Rascal_Does_Not_Dream_of_Bunny_Girl_Senpai" target="_blank"
+                    ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTui0zWkI3uglfQ9C3HR8-qCkl02X9lGX5YebE4kV6wDIUwA3g7" height="200px" width="150px" align="top" /><br /><a
+                      class="favthgs"
+                      href="https://en.wikipedia.org/wiki/Rascal_Does_Not_Dream_of_Bunny_Girl_Senpai"
+                      target="_blank"
+                      >Seishun Buta Yarou</a
+                    ></a
+                  >
+                </li>
+                <li class="favlist">
+                  <a href="https://en.wikipedia.org/wiki/Fairy_Tail:_100_Years_Quest" target="_blank"
+                    ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Fairy_Tail_100_Years_Quest%2C_Vol_1.jpg/220px-Fairy_Tail_100_Years_Quest%2C_Vol_1.jpg" height="200px" width="150px" align="top" /><br /><a
+                      class="favthgs"
+                      href="https://en.wikipedia.org/wiki/Fairy_Tail:_100_Years_Quest"
+                      target="_blank"
+                      >Fairy Tail: 100 Years Quest</a
+                    ></a
+                  >
+                </li>
+              </ol>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
